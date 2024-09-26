@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="public/images/icon_principal.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="public/CSS/login.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="form-wraper">
+        <div class="form">
+            <header>
+                <h1>Login</h1>
+            </header><!-- header -->
+
+            <div class="container-inputs">
+                <div class="input-wraper">
+                    <input class="preencher" type="text" name="name_login" id="nameLogin">
+                    <label for="nameLogin">Username</label>
+                    <div class="msg">
+                        <p class="erro"></p>
+                    </div><!-- msg -->
+                </div><!-- input-wraper -->
+
+                <div class="input-wraper">
+                    <input class="preencher" type="password" name="password_login" id="passwordLogin">
+                    <label for="passwordLogin">Password</label>
+                    <div class="msg">
+                        <p class="erro"></p>
+                    </div><!-- msg -->
+                </div><!-- input-wraper -->
+
+                <div class="input-envi-wraper">
+                    <div class="check-wraper">
+                        <input type="checkbox" name="rememberMe" id="rememberMe">
+                    <label for="rememberMe">Remember me</label>
+                    </div><!-- check-wraper -->
+
+                    <div class="sub-wraper">
+                        <input type="submit" value="Login" class="submit">
+
+                        <div class="createUser">
+                            <p>Don't have an account? <span class="span_dentro_do_p" id="sign_up">Sign up</span></p>
+                        </div><!-- createUser -->
+
+                    </div><!-- sub-wraper -->
+                </div><!-- input-sub-wraper -->
+
+            </div><!-- container-inputs -->
+
+        </div><!-- form -->
+    </div><!-- form-wraper -->
+</body>
+<script src="public/JS/Jquery.js"></script>
+<script src="public/JS/login.js"></script>
+</html>
