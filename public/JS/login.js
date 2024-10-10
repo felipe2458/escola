@@ -69,7 +69,7 @@ $('input[type="submit"]').click(function(e){
 
     const user = {
         name: "felipe_e2458",
-        password: "124578963__124578963"
+        password: "felipe__124578963235689741124578963felipe_e2458"
     }
 
     if(nameVal === user.name && passwordVal === user.password){
